@@ -1,0 +1,7 @@
+localhost 8000 -> 404
+127.0.0.1 -> 301
+
+first, proxy can only do one connection
+
+ps aux | grep python
+
