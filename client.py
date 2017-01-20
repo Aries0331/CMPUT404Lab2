@@ -23,7 +23,7 @@ while True:
 	#print 'aaaaaaaaaaaaaaa'
 	#print part
     else:
-        break;
+        break
 
 #print response
 
