@@ -25,5 +25,24 @@ while True:
     else:
         break
 
-#print response
+print response
+
+
+# same output as tying curl -i www.google.com
+'''
+HTTP/1.0 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.ca/?gfe_rd=cr&ei=Y2-BWKbeNube8Afz54jwCw
+Content-Length: 258
+Date: Fri, 20 Jan 2017 02:01:07 GMT
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.ca/?gfe_rd=cr&amp;ei=Y2-BWKbeNube8Afz54jwCw">here</A>.
+</BODY></HTML>
+
+'''
 
